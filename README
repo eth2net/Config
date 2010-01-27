@@ -10,6 +10,7 @@ $HOME/
 .font.conf
 
 Gentoo/
+/usr/src/linux/.config
 /etc/make.conf
 /etc/nginx/nginx.conf
 /etc/portage/package.keywords
