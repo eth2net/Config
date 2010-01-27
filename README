@@ -1,1 +1,18 @@
 My system configration files
+
+awesome wm
+conky
+vim
+
+$HOME/
+.xinitrc
+.bashrc
+.font.conf
+
+Gentoo/
+/etc/make.conf
+/etc/nginx/nginx.conf
+/etc/portage/package.keywords
+
+Ubuntu/
+/etc/apt/sources.list
