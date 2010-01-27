@@ -1,0 +1,31 @@
+deb http://ubuntu.uestc.edu.cn/ubuntu/ jaunty main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-backports main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-proposed main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-security main restricted universe multiverse
+deb http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-updates main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ jaunty main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-backports main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-proposed main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-security main restricted universe multiverse
+deb-src http://ubuntu.uestc.edu.cn/ubuntu/ jaunty-updates main restricted universe multiverse
+
+#Gnome-colors
+deb http://ppa.launchpad.net/gnome-colors-packagers/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/gnome-colors-packagers/ppa/ubuntu jaunty main
+
+#Gnome-do
+deb http://ppa.launchpad.net/do-core/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/do-core/ppa/ubuntu jaunty main
+
+#Network-manager-openvpn Patch
+deb http://ppa.launchpad.net/network-manager/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/network-manager/ppa/ubuntu jaunty main
+
+#Shutter
+deb http://ppa.launchpad.net/shutter/ppa/ubuntu jaunty main
+deb-src http://ppa.launchpad.net/shutter/ppa/ubuntu jaunty main
+
+#Awesome
+deb http://corvix.eu testing awesome
+
+#Irssi
