@@ -1,0 +1,14 @@
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+include "/usr/share/themes/Murrine Brave/gtk-2.0/gtkrc"
+
+include "/home/york/.gtkrc.mine"
+
+# -- THEME AUTO-WRITTEN DO NOT EDIT
+
+style "user-font"{
+    font_name = "微软雅黑 10"
+}
+
+widget_class "*" style "user-font"
+
+gtk-font-name="微软雅黑 10"
