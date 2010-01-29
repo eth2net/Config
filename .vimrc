@@ -59,6 +59,8 @@ set tabstop=4
 "set expandtab
 set shiftwidth=4
 set fdm=marker
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+set laststatus=2
 
 
 "for python
@@ -69,8 +71,13 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-"filetype plugin on
+filetype plugin on
 let g:pydiction_location='~/.vim/plugin/complete-dict'
 "if has("autocmd")
 "   autocmd FileType python set complete+=k~/.vim/pydiction "iskeyword+=.,(
 "endif
+
+"vim-plugins
+"set runtimepath+=~/vim-plugins/vim-addon-manager
+"call scriptmanager#Activate(['vim-addon-manager','JSON'])
+"call scriptmanager#Activate(['Pyflakes'])
