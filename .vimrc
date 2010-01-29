@@ -40,8 +40,8 @@ endif
 " The following are commented out as they cause vim to behave a lot
 " differently from regular Vi. They are highly recommended though.
 "set showcmd		" Show (partial) command in status line.
-set showmatch		" Show matching brackets.
-set matchtime=10    " time=1s
+set showmatch		" 括号匹配 Show matching brackets.
+set matchtime=10    " 匹配时间 time=1s
 "set ignorecase		" Do case insensitive matching
 set smartcase		" Do smart case matching
 "set incsearch		" Incremental search
@@ -54,18 +54,22 @@ set mouse=a		" Enable mouse usage (all modes)
 "  source /etc/vim/vimrc.local
 "endif
 
-set number
-set autoindent
-set tabstop=4
-"set expandtab
-set shiftwidth=4
+set number       "显示行号
+set autoindent   "自动缩进
+
+"Config Tab
+set tabstop=4    "Tab宽度
+set expandtab    "Tab转换为空格
+set shiftwidth=4 "缩进宽度
+set smarttab     "智能删除Tab
+
 set fdm=marker
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 
 
 "for python
-filetype indent on 
+filetype plugin indent on 
 set smartindent
 set smarttab
 set expandtab
