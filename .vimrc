@@ -70,13 +70,6 @@ set laststatus=2
 
 "for python
 filetype plugin indent on 
-set smartindent
-set smarttab
-set expandtab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
-filetype plugin on
 let g:pydiction_location='~/.vim/plugin/complete-dict'
 "if has("autocmd")
 "   autocmd FileType python set complete+=k~/.vim/pydiction "iskeyword+=.,(
