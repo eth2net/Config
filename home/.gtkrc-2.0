@@ -1,14 +1,8 @@
-# -- THEME AUTO-WRITTEN DO NOT EDIT
-include "/usr/share/themes/Murrine Brave/gtk-2.0/gtkrc"
+# DO NOT EDIT!  This file will be overwritten by LXAppearance.
+# Any customization should be done in ~/.gtkrc-2.0.mine
 
-include "/home/york/.gtkrc.mine"
-
-# -- THEME AUTO-WRITTEN DO NOT EDIT
-
-style "user-font"{
-    font_name = "微软雅黑 10"
-}
-
-widget_class "*" style "user-font"
-
+gtk-theme-name="MurrinaBlu"
+gtk-icon-theme-name="elementary-monochrome"
 gtk-font-name="微软雅黑 10"
+gtk-toolbar-style=2
+include "/home/york/.gtkrc.mine"
