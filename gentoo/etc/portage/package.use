@@ -1,0 +1,43 @@
+www-servers/nginx addition fastcgi pcre perl ssl status zlib
+dev-db/mysql embedded
+dev-lang/php cgi ctype curl curlwrappers exif gd hash mhash mysql pdo snmp sockets
+dev-lang/python sqlite
+#gnome-base/gnome-panel networkmanager
+net-irc/irssi socks5
+app-misc/screen multiuser
+dev-python/django mysql vhosts sqlite
+app-editors/vim cscope vim-pager vim-with-x
+x11-wm/openbox xinerama
+app-admin/conky hddtemp lua lua-cairo nvidia smapi curl imlib iostats lua-imlib
+app-editors/gvim cscope nextaw motif
+app-arch/file-roller nautilus
+net-analyzer/wireshark gnutls gcrypt profile threads
+net-misc/wicd libnotify ncurses pm-utils
+net-dialup/ppp activefilter dhcp eap-tls mppe-mppc radius
+net-misc/networkmanager connection-sharing dhclient dhcpcd gnutls resolvconf nss
+net-p2p/mldonkey -gtk fasttrack gd gnutella magic
+dev-db/sqlite secure-delete
+sys-fs/udev extras
+net-misc/curl gnutls
+x11-misc/tint2 battery
+#x11-libs/gtk+ -cups
+dev-vcs/git subversion git curl cgi threads
+dev-util/subversion -dso
+app-portage/layman subversion git
+x11-terms/rxvt-unicode iso14755 xterm-color
+net-im/pidgin gnutls
+media-plugins/audacious-plugins cue oss midi
+app-emulation/kvm gnutls
+app-emulation/qemu-kvm curl gnutls
+net-misc/openssh -ldap
+#app-i18n/ibus-pinyin -nls
+#sys-apps/busybox static -pam
+#app-shells/bash static
+#net-wireless/wpa_supplicant madwifi
+x11-libs/libXft ubuntu
+net-analyzer/tcpdump suid
+sys-auth/consolekit policykit
+sys-apps/parted device-mapper
+gnome-base/gvfs gdu
+app-i18n/sunpinyin ibus
+x11-misc/notification-daemon notify-osd

@@ -1,6 +1,22 @@
 dev-libs/wicked ~x86
-=x11-libs/libXft-2.1.14 ~x86
+#=x11-libs/libXft-2.1.14 ~x86
 media-libs/freetype ~x86
 >=media-libs/fontconfig-2.6 
 >=x11-libs/cairo-1.8
 www-servers/spawn-fcgi ~x86
+x11-misc/shutter ~x86
+dev-perl/Sort-Naturally ~x86
+dev-perl/Gtk2-ImageView ~x86
+app-i18n/scim-bridge ~x86
+app-i18n/sunpinyin ~x86
+dev-perl/YAML-Tiny ~x86
+dev-perl/Pango ~x86
+>=sys-libs/glibc-2.11-r1
+sys-apps/baselayout ~x86
+sys-apps/openrc ~x86
+dev-python/python-fastcgi ~x86
+sys-devel/gcc ~x86
+sys-kernel/gentoo-sources ~x86
+net-wireless/madwifi-ng ~86 **
+net-wireless/madwifi-ng-tools ~86 **
+#=media-libs/libpng-1.2.43
